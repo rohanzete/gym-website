@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("gym.jpg");
+    background-size: 100%;
+    color: white;
+   
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+ul{
+    display:flex;
+    list-style: none;
+    margin-top: 20px;
+}
+nav h1{
+    font-size: 50px;
+    margin: 20px;
+}
+ul li a{
+    margin-inline:30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+    
+}
+h1 span{
+    color:rgb(245, 11, 11);
+    margin-right: 5px;
+}
+
+ul li a:hover{
+    border-bottom: 4px solid white;
+}
+ul button{
+    width: 120px;
+    height: 36px;
+    background-color: #e32518;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position:relative;
+    bottom: 5px;
+    cursor: pointer;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: relative;
+    left: 20px;
+    top: 1px;
+   
+  
+
+}
+.text{
+    margin-left:7%;
+    margin-top:150px;
+}
+.text h1{
+    font-size: 120px;
+    margin-top: 100px;
+    font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+.text p{
+    font-size: 27px;
+    margin-top: 25px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.text button{
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    background-color:#e32518 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.text button:hover{
+   
+    background-color: rgb(102, 62, 62);
+    cursor: pointer;
+}
